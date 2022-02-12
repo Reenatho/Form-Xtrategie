@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 920px;
+    height: 350px;
+    border-radius: 10px;
+  
+  }
+  .logo-img{
+    padding-right: 55px;
+  }
+  
+  .login{
+    border-left: 1px solid #20B2AA;
+    padding-left: 55px;
+  }
+  
+  .title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #808080;
+  }
+  
+  .form-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #DCDCDC;
+    border-radius: 5px;
+    
+  }
+  
+  .email, .password{
+    margin: 20px 0 0 0;
+    height: 40px;
+    width: 250px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+  }
+  
+  .icon-pass{
+    color: #a59c9c;
+    cursor: pointer; 
+    
+  }
+  
+  .icon-pass:hover{
+    color:#808080;
+    transition: 0.5s;
+  }
+  .button{
+    background-color: #fff;
+    border: solid 1px #20B2AA;
+    width: 250px;
+    height: 35px;
+    font-weight: bold;
+    color: #20B2AA;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-top: 15px;;
+  }
+  
+  .button:hover{
+    background-color: #20B2AA;
+    color: #fff;
+  
+  }
+  
+  @media (max-width:920px){
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      width: 640px;
+      height: 350px;
+      border-radius: 10px;
+    }
+  
+    .login{
+      border-left:0;
+      padding:0;
+      justify-content: center;
+    }
+  
+    img{
+      width: 250px;
+    }
+  
+  }
+  
+  @media (max-width:640px){
+    .container{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      width: 420px;
+      height: 350px;
+      border-radius: 10px;
+    }
+  
+    .login{
+      border-left:0;
+      padding:0;
+      justify-content: center;
+    }
+  
+    .logo-img{
+      padding: 0;
+    }
+  
+    img{
+      width: 200px;
+    }
+  
+  }
+  
